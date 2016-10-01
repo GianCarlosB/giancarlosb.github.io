@@ -1,2 +1,1 @@
-# http://GianCarlosB.github.io
-Meu site pessoal
+# http://giancarlosb.github.io

@@ -9,13 +9,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="shortcut icon" href="assets/images/favicon.ico"> 
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic'>
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel='stylesheet' href='assets/plugins/google-font/lato.css'>
+		<link rel='stylesheet' href='assets/plugins/google-font/montserrat.css'>
 		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
 		<link rel="stylesheet" href="assets/plugins/octicons/octicons.min.css">
 		<link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-		<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/styles.css" id="theme-style">
 	</head>
 	<body>
 		<header class="header">
@@ -41,7 +41,7 @@
 						<div class="section-inner">
 							<h2 class="heading">Sobre Mim</h2>
 							<div class="content">
-								<p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>
+								<p class="content-about">Nascido e criado em Barbacena interior de Minas Gerais, aficionado por jogos eletrônicos, fã de <i>heavy metal</i> (Ou como minha mãe costuma chamar, "rock pauleira") e entusiasta por tecnologia, desde pequeno eu me interesso por computadores e anseio por desvendar seus mistérios. Ainda hoje me lembro da emoção que foi em ver meu primeiro <i>Hello World</i> criado por mim em <strong>C</strong> na faculdade, neste momento eu descobri a carreira na qual eu gostaria de seguir na vida, e desde então eu tenho atuado profissionalmente na área de programação sempre buscando aprimorar meus conhecimentos, e desempenhando meu papel com muita dedicação e paixão e é claro ouvindo sempre uma boa música.</p>
 							</div>
 						</div>
 					</section>
@@ -53,14 +53,14 @@
 									<h3 class="title">
 										<a href="https://edart.ltda" target="_blank">Edart</a>
 									</h3>
-									<p class="summary">Financial Consulting</p>
+									<p class="summary">Consultoria Financeira</p>
 									<div class="featured-image has-ribbon">
 										<a href="https://edart.ltda" target="_blank">
 											<img class="img-fluid project-image" src="assets/images/projects/edart.jpg" alt="Edart Financial Consulting"/>
 										</a>
 									</div>
 									<div class="desc text-left">
-										<p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+										<p class="project-description">Site institucional <i>single page</i> da empresa <strong>Edart Consultoria Financeira LTDA</strong>. Desenvolvido inteiramente por minha pessoa, o projeto utiliza as tecnologicas HTML5, Bootstrap e jQuery, e seu design visa proporcionar a melhor experiência ao usuário podendo ser visualizado em 5 idiomas diferentes.</p>
 									</div> 
 								</div>
 							</div>
@@ -76,7 +76,7 @@
 											<img class="img-fluid float-left" src="assets/images/projects/adapter.jpg" alt="Adapter ERP"/>&nbsp;&nbsp;Adapter ERP
 										</a>
 									</h3>
-									<p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+									<p class="summary project-description">Projeto no qual eu fiz parte atuando como desenvolvedor full stack, o <strong>Adapter</strong> é um ERP para gestão de provedores de internet. Desenvolvido utilizando as melhores tecnologicas e padrões de projeto encontrados no mercado, o sistema hoje já é utilizando dos diversas empresas de telecomunicações ao redor do Brasil.</p>
 								</div>
 							</div>
 						</div>
@@ -180,33 +180,48 @@
 							<h2 class="heading">Habilidades</h2>
 							<div class="content">
 								<p class="intro">
-									Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+									Principais habilidades que possuo na área de tecnologia da informação classificadas pelo grau de conhecimento.
+								</p>
 								<div class="skillset">
 									<div class="item">
-										<h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+										<h3 class="level-title">HTML5, CSS3, Bootstrap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
 										<div class="level-bar">
-											<div class="level-bar-inner" data-level="96%">
+											<div class="level-bar-inner" data-level="95%">
 											</div> 
 										</div>
 									</div>
 									<div class="item">
-										<h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+										<h3 class="level-title">Javascript, jQuery, AngularJS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
 										<div class="level-bar">
-											<div class="level-bar-inner" data-level="96%">
+											<div class="level-bar-inner" data-level="90%">
 											</div> 
 										</div>
 									</div>
 									<div class="item">
-										<h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+										<h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
 										<div class="level-bar">
-											<div class="level-bar-inner" data-level="96%">
+											<div class="level-bar-inner" data-level="100%">
 											</div> 
 										</div>
 									</div>
 									<div class="item">
-										<h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+										<h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
 										<div class="level-bar">
-											<div class="level-bar-inner" data-level="85%">
+											<div class="level-bar-inner" data-level="70%">
+											</div> 
+										</div>
+									</div>
+									<div class="item">
+										<h3 class="level-title">DevOps<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="65%">
+											</div> 
+										</div>
+									</div>
+									<div class="item">
+										<h3 class="level-title">MySQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="70%">
 											</div> 
 										</div>
 									</div>
@@ -272,13 +287,39 @@
 					</aside>
 					<aside class="list music aside section">
 						<div class="section-inner">
-							<h2 class="heading">Músicas favoritas para ouvir ao programar</h2>
+							<h2 class="heading">Músicas para programar ouvindo</h2>
 							<div class="content">
 								<ul class="list-unstyled">
-									<li><i class="fas fa-headphones"></i><a href="#">Etiam hendrerit urna nunc</a></li>
-									<li><i class="fas fa-headphones"></i><a href="#">Ut sollicitudin in mauris non auctor</a></li>
-									<li><i class="fas fa-headphones"></i><a href="#">Etiam hendrerit urna nunc</a></li>
-									<li><i class="fas fa-headphones"></i><a href="#">Duis et felis bibendum</a></li>
+									<li>
+										<i class="fas fa-headphones"></i>
+										<a href="https://www.deezer.com/track/122141184?utm_source=deezer&utm_content=track-122141184&utm_term=3056569844_1584829934&utm_medium=web">
+											<strong>floating point</strong> - The Algorithm
+										</a>
+									</li>
+									<li>
+										<i class="fas fa-headphones"></i>
+										<a href="https://www.deezer.com/track/563649632?utm_source=deezer&utm_content=track-563649632&utm_term=3056569844_1584830297&utm_medium=web">
+											<strong>Cluster</strong> - The Algorithm
+										</a>
+									</li>
+									<li>
+										<i class="fas fa-headphones"></i>
+										<a href="https://www.deezer.com/track/122141198?utm_source=deezer&utm_content=track-122141198&utm_term=3056569844_1584830342&utm_medium=web">
+											<strong>rootkit</strong> - The Algorithm
+										</a>
+									</li>
+									<li>
+										<i class="fas fa-headphones"></i>
+										<a href="https://www.deezer.com/track/122141186?utm_source=deezer&utm_content=track-122141186&utm_term=3056569844_1584830379&utm_medium=web">
+											<strong>pointers</strong> - The Algorithm
+										</a>
+									</li>
+									<li>
+										<i class="fas fa-headphones"></i>
+										<a href="https://www.deezer.com/track/122141188?utm_source=deezer&utm_content=track-122141188&utm_term=3056569844_1584830421&utm_medium=web">
+											<strong>brute force</strong> - The Algorithm
+										</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -308,14 +349,14 @@
 				<small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank"> Xiaoying Riley</a> for developers</small>
 			</div>
 		</footer>
-		<script defer src="assets/fontawesome/js/all.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/mustache/mustache.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script defer src="assets/fontawesome/js/all.js" type="text/javascript"></script>
+		<script src="assets/plugins/jquery-3.4.1.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/popper.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/jquery-rss/dist/jquery.rss.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/github-calendar/dist/github-calendar.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/mustache/mustache.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/github-activity/github-activity-0.1.5.min.js" type="text/javascript"></script>
+		<script src="assets/js/main.js" type="text/javascript"></script>
 	</body>
 </html>
